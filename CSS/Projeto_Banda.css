@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(221, 221, 221);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.sec {
+    background-color: white;
+    width: 85%;
+    padding: 20px 50px;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.ene grito{
+    font-weight: bold;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.h1 {
+    font-size: 40px;
+}
+
+.it{
+    font-style: italic;
+}
+
+img {
+    height: 500px;
+    width: 800px;
+    margin-top: 20px;
+}
+
+.bio {
+    text-align: left;
+    padding: 25px 0px;
+    margin: 25px 0px;
+    border-top: 1px dashed #cac9c9;
+    border-bottom: 1px dashed #cac9c9;
+}
+
+.citacao {
+    background-color: rgb(221, 221, 221);
+    padding: 30px;
+    text-align: left;
+}
+
+.citacao blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.citacao p {
+    font-style: italic;
+}
+
+.curiosidade {
+    padding: 25px 0px;
+    margin: 25px 0px;
+    border-top: 1px dashed #cac9c9;
+    border-bottom: 1px dashed #cac9c9;
+    text-align: left;
+}
+
+.curiosidade li {
+    height: 30px;
+    margin-left: 50px;
+}
+
+.s_foto figcaption {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.mais {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(115, 115, 115);
+}
+a:hover {
+    color: blue;
+    font-style: italic;
+    background-color: rgb(130, 130, 130);
+    border-radius: 12px;
+}
