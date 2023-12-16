@@ -1,3 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 .requerido {
     color: red;
 }
+
+body {
+    background-color: #f0ebf8;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #333;
+}
+
+p, label {
+    color: #444;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
+}
+
+textarea {
+    padding: 10px 5px;
+}
+/* Para especificar o tipo de input que desejo alterar tenho: */
+.bloco{
+    width: 400px;
+    display: block;
+}
+
+.cabe {
+    height: 160px;
+    padding: 20px;
+    background-color: #673ab7;
+}
+
+.cabe h3 {
+    color: white;
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+.sec2 {
+    background-color: #fdfdfd;
+    width: 60%;
+    /* centralizando  */
+    margin-left: 20%;
+    margin:  0 auto;
+    position: relative;
+    top: -62px;
+}
+
+.cabe2 {
+    border-bottom: 1px solid #fdfdfd;
+    height: 45px;
+}
+
+.cabe2 p {
+    color: #673ab7;
+    border-bottom: 2px solid #673ab7;
+    width: 100px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+.cabe3 {
+    padding: 30px;
+}
+
+.titulo {
+    margin-bottom: 15px;
+}
+
+.cabe3 p {
+    margin-bottom: 20px;
+}
+
+.inputs {
+    margin-bottom: 35px;
+}
+
+.opcoes {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.opcoes li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.input p {
+    margin-bottom: 15px;
+}
+
+.botao_env {
+    background-color: #673ab7;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border-radius: 12px;
+}
+
+.botao_env:hover {
+    background-color: white;
+    border: 1px solid #673ab7;
+    color: #673ab7;
+}
+
