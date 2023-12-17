@@ -42,7 +42,9 @@ textarea {
 .cabe {
     height: 160px;
     padding: 20px;
-    background-color: #673ab7;
+    background-image: url(../Midea/Comprar-carros.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 
 .cabe h3 {
@@ -107,8 +109,8 @@ textarea {
 }
 
 .botao_env {
-    background-color: #673ab7;
-    color: #fff;
+    color: #333;
+    font-size: 20px;
     border: 2px solid transparent;
     width: 150px;
     height: 50px;
@@ -117,11 +119,14 @@ textarea {
     text-transform: uppercase;
     transition: 0.5s;
     border-radius: 12px;
+    background-image: url(../Midea/venda.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 
 .botao_env:hover {
     background-color: white;
-    border: 1px solid #673ab7;
-    color: #673ab7;
+    border: 1px solid #333;
+    color: black;
 }
 
