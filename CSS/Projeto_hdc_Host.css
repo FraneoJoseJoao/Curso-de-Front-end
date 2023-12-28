@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1, h2, h3 {
     color: #333;
 } 
@@ -45,16 +49,19 @@ nav {
 }
 
 .itensN a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     transition: 0.5s;
 }
 
 .itensN a:hover {
-    color: #ccc;
+    color: #838383; 
+    border: 1px solid #888;
+    padding: 15px 20px;
+    border-radius: 10px;
 }
 
-.botao {
+.itensN .botao {
     padding: 15px 20px;
     background-color: #2cc76a;
     border-radius: 10px;
@@ -315,4 +322,90 @@ footer {
     text-align: center;
     font-weight: bold;
     margin: 50px 0 100px;
+}
+
+/* Responsividadde */
+
+/* Computador Apartir de 1110px */
+
+@media (max-width: 1110px){
+    .planos_precos {
+        width: 95%;
+    }
+
+    .planos{
+        margin: 0 5px;
+    }
+}
+/* Tablete 900px */
+
+@media (max-width: 900px) {
+    .main p {
+        padding: 0 6rem;
+    }
+    .dominio h2 {
+        padding: 2rem 4rem;
+    }
+}
+
+/* Mobile telefone 576px*/
+@media (max-width: 576px)  {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .main p {
+        padding: 0 2rem;
+    }
+
+    .itensN li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+    .itensN a:hover {
+        padding: 7.5px 10px;
+        border-radius: 5px;
+    }
+
+    .itensN .botao {
+        margin-right: 5px;
+    }
+
+    .planos_precos {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .planos{
+        width: 100%;
+        max-width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .contactos input, .contactos textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .contactos {
+        padding: 2rem 3rem;
+    }
+
+    .dominio {
+        border-radius: 12px;
+    }
+
+    .servicos ul {
+        flex-direction: column;
+    }
+
+    .dominio h2 {
+        font-size: 28px;
+    }
+
+    .dominio input[type="text"] {
+        width: 90%;
+    }
 }
