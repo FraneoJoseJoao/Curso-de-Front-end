@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+#main {
+    display: flex;
+    margin-top: 30px;
+}
+
+#telefone, #formulario {
+    flex: 1 1 0;
+    width: 100%;
+}
+
+#telefone {
+    text-align: right;
+}
+
+#telefone img {
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 25px;
+    max-width: 380px;
+}
+
+#formulario {
+    text-align: center;
+
+}
+/* login */
+
+#formulario img {
+    width: 175px;
+    height: 51px;
+    margin: 30px auto 12px;
+}
+
+#for-X {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+#login {
+    margin-top: 20px;
+}
+
+#login input {
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 263px;
+    margin: 5px auto;
+}
+
+#login input[type="submit"] {
+    background-color: #2bdffc;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 13px;
+    padding: 0;
+    font-weight: bold;
+}
+
+/* separador */
+
+.separado {
+    position: relative;
+}
+
+.linha {
+    border-top: 1px solid #dbdbdb; 
+    width: 268px;
+    margin: 25px auto 35px;
+}
+
+.separado  span {
+    position: absolute;
+    text-transform: capitalize;
+    color: #dbdbdb;
+    background-color: #fff;
+    top: -6px;
+    width: 50px;
+    margin-left: -25px;
+    font-size: 12px;
+}
+
+/* Facebook login */
+
+#facebook {
+    margin-bottom: 25px;
+}
+
+#facebook a {
+    text-decoration: none;
+    color: #385185;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#facebook img {
+   width: 16px;
+   height: 16px;
+   margin: 0 8px 0 0;
+}
+
+#facebook span {
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 1px;
+}
+
+/* Esqueceu a senha  */
+
+#esqueceu_pss {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+#esqueceu_pss a {
+    text-decoration: none;
+    color: #373799;
+}
+
+/* Registo */
+
+#registo {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    margin-top: 10px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#registo p {
+    font-size: 14px;
+    color: #262626;
+}
+
+#registo a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #4a95f6;
+}
+
+/* Get APP */
+
+#baixarAPP {
+    text-align: center;
+    width: 350px;
+}
+
+#baixarAPP p {
+    margin: 20px 0;
+    font-size: 13px;
+}
+
+#baixarAPP a{
+    text-decoration: none;
+}
+
+#baixarAPP img {
+    width: 136px;
+    height: 40px;
+}
+
+/* Rodape */
+
+footer {
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#rodape_link{
+    display: flex;
+    list-style: none;
+}
+
+#rodape_link li {
+    margin-left: 10px;
+}
+
+#rodape_link a, #copia {
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+#copia {
+    margin-top: 10px;
+}
+
+/* Mobile */
+
+@media (max-width: 450px) {
+    body {
+        background-color: #fff;
+    }
+
+    #telefone {
+        display: none;
+    }
+
+    #main, #for-X{
+        margin-top: 0;
+    }
+
+    #main, #for-X, #registo, #baixarAPP{
+        width: 100%;
+        border: none;
+    }
+
+    footer {
+        width: 90%;
+    }
+
+    #rodape_link {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #rodape_link {
+        margin-bottom: 10px;
+    }
+}
