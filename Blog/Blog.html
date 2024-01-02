@@ -4,8 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link rel="stylesheet" href="Blog.css">
 </head>
 <body>
-    
-</body>
+    <header>
+    <nav id="nav">
+        <h2 class="h2">Blog</h2>
+        <div id="navi">
+            <ul id="nav_link">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sec2">Categorias</a></li>
+                <li><a href="#sec4">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <!-- Controlo das estremidades -->
+    <div class="controlo" id="home">
+        <main id="post_controlo">
+            <article class="post">
+                <img src="img/f1.jpg" alt="Passeio de barco">
+                <h3 class="titulo">
+                    <a href="#">Algum titulo</a>
+                </h3>
+                <p class="descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate voluptas, quia sint adipisci fugiat eligendi. Doloremque accusantium adipisci laudantium fugiat ipsa voluptatem modi consequuntur hic repellendus! Soluta provident architecto dolor.</p>
+                
+                <p class="autor">Por: Matheus Battisti</p>
+
+                <a href="#">Ler mais!</a>
+            </article>
+
+            <article class="post">
+                <img src="img/f2.jpg" alt="Cachoeira">
+                <h3 class="titulo">
+                    <a href="#">Outro titulo</a>
+                </h3>
+                <p class="descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate voluptas, quia sint adipisci fugiat eligendi. Doloremque accusantium adipisci laudantium fugiat ipsa voluptatem modi consequuntur hic repellendus! Soluta provident architecto dolor.</p>
+                <a href="#">Ler mais!</a>
+            </article>
+
+            <article class="post">
+                <img src="img/f3.jpg" alt="Baloes">
+                <h3 class="titulo">
+                    <a href="#">Mais um blog post</a>
+                </h3>
+                <p class="descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate voluptas, quia sint adipisci fugiat eligendi. Doloremque accusantium adipisci laudantium fugiat ipsa voluptatem modi consequuntur hic repellendus! Soluta provident architecto dolor.</p>
+                <a href="#">Ler mais!</a>
+            </article>
+        </main>
+        <aside id="aside">
+            <section id="sec1">
+                <h4>Busca</h4>
+                <form>
+                    <input type="text" placeholder="Pesquise no Blog">
+                    <input type="submit" value="Buscar">
+                </form>
+            </section>
+
+            <section id="sec2">
+                <h4>Categorias</h4>
+                <nav>
+                    <ul>
+                        <li><a href="#">Paisagens</a></li>
+                        <li><a href="#">Aventura</a></li>
+                        <li><a href="#">Viagens Longas</a></li>
+                        <li><a href="#">Florestas</a></li>
+                        <li><a href="#">Cachoeiras</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section id="sec3">
+                <h4>Tags</h4>
+                <div id="tags_con">
+                    <a href="#">Lifestyle</a>
+                    <a href="#">Viagem</a>
+                    <a href="#">Barco</a>
+                    <a href="#">Trilha</a>
+                    <a href="#">Tirolesa</a>
+                    <a href="#">Rafting</a>
+                    <a href="#">Parapente</a>
+                </div>
+            </section>
+
+            <section id="sec4">
+                <h4>Contacto</h4>
+                <form>
+                    <input type="text" placeholder="Digite o seu nome:">
+                    <input type="email" placeholder="Digite o seu e-mail:">
+                    <textarea name="mensagem" id="mensagem" placeholder="Qual é a sua mensagem!?"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </aside>
+    </div>
+    <footer id="footer">
+        <h2>Blog</h2>
+        <p>Os melhores registos de Aventuras</p>
+        <p>2023 &copy; Hora de codar</p>
+    </footer>
 </html>
